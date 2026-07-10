@@ -1,0 +1,10 @@
+section{
+    background-color: azure;
+    font-size: 2rem;
+    font-weight: 400;
+    color: blue;
+}
+h2{
+    text-align: center;
+    visibility: hidden;
+}
