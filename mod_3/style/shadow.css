@@ -1,0 +1,17 @@
+article{
+    
+    background-color: bisque;
+    width:50px;
+    margin: 50px;
+    box-shadow: -10px 10px 0px black;
+
+}
+
+#header{
+    background-color: aqua;
+    height: 500px;
+    background-image:url('./Screenshot\ 2026-06-30\ at\ 12.55.51\ PM.png');
+    background-size: cover;
+    /* background-repeat: ; */
+    /* background-position: ; */
+}
