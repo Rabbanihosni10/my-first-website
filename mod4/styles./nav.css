@@ -1,0 +1,15 @@
+.nav_container{
+    display: flex;
+    list-style: none;
+} 
+
+nav ul li{
+    margin-right: 20px;
+    padding: 0 8px;   
+}
+nav ul li:hover{
+    background-color: azure;
+}
+nav ul li a{
+    text-decoration: none;
+}

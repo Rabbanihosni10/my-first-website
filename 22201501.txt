@@ -1,0 +1,1 @@
+I have done the lex file till now also try to make the symbol table file. within the next 7 days I will complete the whole task.
