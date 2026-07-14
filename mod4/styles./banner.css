@@ -1,0 +1,37 @@
+/* img{
+  max-width: auto;
+  height: auto;
+  display: block;
+}
+div{
+    display: flex;
+    justify-content: center;
+} */
+
+.banner{
+    display: flex;
+    background-color: lightblue;
+    /* height: 400px; */
+    align-items: center;
+}
+
+.banner-container{
+    flex:1;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.pic-container{
+    flex:1;
+}
+.pic-container img{
+    width: 100%;
+}
+
+.banner .banner-container button{
+    background-color: red;
+    padding: 5px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+
+}

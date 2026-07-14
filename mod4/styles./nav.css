@@ -1,6 +1,11 @@
+
 .nav_container{
+    background-color: honeydew;
+    border: 1px solid honeydew;
+    border-radius: rounded;
     display: flex;
     list-style: none;
+    /* border-shadow: */
 } 
 
 nav ul li{
@@ -8,8 +13,12 @@ nav ul li{
     padding: 0 8px;   
 }
 nav ul li:hover{
+
     background-color: azure;
+
 }
 nav ul li a{
+
     text-decoration: none;
+
 }
