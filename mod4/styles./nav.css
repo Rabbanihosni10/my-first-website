@@ -1,10 +1,11 @@
 
 .nav_container{
-    background-color: honeydew;
-    border: 1px solid honeydew;
+    /* background-color: honeydew; */
+    /* border: 1px solid honeydew; */
     border-radius: rounded;
     display: flex;
     list-style: none;
+    font-size: large;
     /* border-shadow: */
 } 
 
@@ -20,5 +21,7 @@ nav ul li:hover{
 nav ul li a{
 
     text-decoration: none;
+    color: rgb(163, 97, 97);
+
 
 }
