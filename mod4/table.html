@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th{
+            border: 1px solid black;
+        }
+        th{
+            background-color: antiquewhite;
+        }
+        tfoot td{
+            text-align: right;
+            font-size: 0.5rem;
+        }
+        caption{
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h2>Table HTML</h2>
+        <table>
+            <caption>Data For Fifa Players</caption>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Club</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Len messi   </td>
+                    <td>Striker     </td>
+                    <td>Inter Miami </td>
+                    <td>Argentina   </td>
+                </tr>
+                <tr>
+                    <td>Ronaldo   </td>
+                    <td>Striker   </td>
+                    <td>Al shabab </td>
+                    <td>Portugal  </td>
+                </tr>
+                <tr>
+                    <td>Neymar  </td>
+                    <td>Striker </td>
+                    <td>PSG     </td>
+                    <td>Brasil  </td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="4">By FiFA Brothers</td>
+                </tr>
+            </tfoot>
+        </table>
+        <ul>
+            <li>Table            : table </li>
+            <li>Table head       : thead </li>
+            <li>Table body       : tbody </li>
+            <li>Table row        : tr    </li>
+            <li>Table data       : td    </li>
+            <li>Table header data: th    </li> 
+            <li>Table footer     : tfoot </li> 
+            <li>Caption </li> 
+        </ul>
+    </main>    
+</body>
+</html>
