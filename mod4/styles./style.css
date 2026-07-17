@@ -1,0 +1,132 @@
+/* navber  */
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.nav1{
+    display: flex;
+    gap: 10px;  
+}
+.nav1:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+.nav1 img{
+    width: 120px;
+    height: 120px;
+    border-radius: 250px;
+}
+
+.nav1 h2{
+    color: aquamarine;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.nav1 p{
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+
+
+
+
+
+
+/* main section  */
+.caption{
+    font-size: 1.5rem;
+    font-weight: 600;
+}main{
+
+    text-align: center;
+}
+.card-holder{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    /* border: 2px solid black; */
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    background-color: azure;
+}
+li:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+.card-basic{
+    border: 1px solid black;
+
+}
+.card-basic img{
+    border-radius: 150px;
+    width: 100%;
+}
+.card-medium{
+    border: 1px solid black;
+}
+.card-medium img{
+    border-radius: 150px;
+    width: 100%;
+    
+}
+.card-pro{
+    border: 1px solid black;
+}
+.card-pro img{
+    border-radius: 150px;
+    width: 100%;
+}
+.card-premium{
+    border: 1px solid black;
+}
+.card-premium img{
+    border-radius: 150px;
+    width: 100%;    
+}
+.btn{
+    background-color: beige;
+    color: black;
+    font: 600;
+    font-size: large;
+    text-align: center;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 100px;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: peru;
+}
+
+
+.nav2{
+    display: flex;
+    gap: 20px;
+}
+
+.nav2 h2:hover{
+    cursor: pointer;
+    /* color: blue; */
+    background-color: beige;
+}
+
+.nav3{
+    margin-top: 20px;
+    gap: 20px;
+}
+.nav3 button{
+    background-color: blanchedalmond;
+    border: 1px solid black;
+    border-radius: 100px;
+    gap:10px;
+    font-size: large;
+    font-weight: 400;
+}
+
+.nav3 button:hover{
+    cursor: pointer;
+    background-color: aqua;
+
+}
+
+
