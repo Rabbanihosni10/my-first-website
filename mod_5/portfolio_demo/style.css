@@ -174,5 +174,83 @@ ul li a{
     padding: auto;
 } */
 
-/* Gallary Section start  */
+/* Gallary Section design  */
+.galary-parent{
+    /* justify-content: center; */
+    text-align: center;
+}
+.galary-img{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 20px;
+    gap: 15px;
+    grid-auto-rows: 250px;
+    grid-template-areas: 
+    "one two three"
+    "four two six"
+    "four five six"
+    ;
+    /* max-width: 100%; */
+    /* grid-auto-rows: 250px; */
+    /* grid-template-areas: ; */
+}
+.galary-img img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
 
+.box-1{
+    grid-area: one;
+}
+.box-2{
+    grid-area: two;
+}
+.box-3{
+    grid-area: three;
+}
+.box-4{
+    grid-area: four;
+}
+.box-5{
+    grid-area: five;
+}
+.box-6{
+    grid-area: six;
+}
+
+
+/* footer style  */
+footer{
+    text-align: center;
+    margin-top: 70px !important;  /* to make the new tag with force we will use important*/
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: space-between;
+    background-color: #f6decd;
+    padding: 20px;   
+    border-radius: 10px;
+}
+footer form{
+    padding: 20px;
+}
+footer form input, footer form textarea{
+    border: 0;
+    outline: none;
+    background-color: white;
+    padding: 8px 15px;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+
+.footer-left p{
+    margin: 10px 0;
+}
+
+.footer-icon-parent{
+    color: #fd6e0a;
+    font-size: 25px;
+}
