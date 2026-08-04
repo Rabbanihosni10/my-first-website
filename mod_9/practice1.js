@@ -32,3 +32,16 @@ else{
 
 
 
+const arr10=[1,2,3,4,5,6,7,8,9,10];
+arr10.reverse();  // this will reverse the array
+console.log(arr10);
+
+const arr11=["Tobarok","Nuha","Kibara","Sakib","Zurkxis"];
+arr11.sort(); // this will sort the array in alphabetical order
+console.log(arr11);
+
+const arr12=[1,2,3,4,5,6,7,8,9,10];
+arr12.sort((a,b)=>b-a);  // this will sort the array in descending order
+console.log(arr12);
+
+
