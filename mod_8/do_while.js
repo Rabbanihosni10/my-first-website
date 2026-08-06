@@ -12,3 +12,5 @@ do{
     console.log("Value of ii:",ii);
     ii++;
 }while (ii>5);
+
+
