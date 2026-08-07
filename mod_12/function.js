@@ -32,3 +32,11 @@ const sum=add(2,3);
 
 console.log(sum);
 
+function square(a){
+    const ab=a**2;
+    return ab;
+}
+
+console.log(square(2));
+console.log(square(3));
+console.log(square(4));
