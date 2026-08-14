@@ -27,3 +27,14 @@
 
 # to get the overview the whole command line 
 # http://127.0.0.1:8000/docs
+
+
+
+
+# from fastapi import FastAPI 
+
+# app=FastAPI()
+
+# @app.get("/")
+# def view():
+#     return " "
