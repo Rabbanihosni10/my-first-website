@@ -38,15 +38,60 @@ console.log(bookTicket(123,2));
 
 
 //Task3
-function generateReceipt(){
-
+function generateReceipt(customerName,items,total){
+    if(items.length!==0){
+        return `Receipt for ${customerName}\nItems: ${[...items]}\nTotal: ৳${total}`;
+    }
+    else{
+        return "Invalid";
+    }
 }
 console.log(generateReceipt("Rakib", ["Pen","Book"], 150));
 console.log(generateReceipt("Sadia", ["Milk"], 60));
 console.log(generateReceipt("Tanvir", [], 0));
 
 //Task4
+//weight in kg and height in m
+const calculateBMI=(weight,height)=>{
+    if(weight>0 && height>0){
+        const BMI=weight/(height*weight);
+        return BMI;
+    }
+    else{
+        return "Invalid";
+    }
+}
 
-// const calculateBMI=(weight,height)=>{
+console.log(calculateBMI(50,1.6));
+console.log(calculateBMI(60,-1.7));
+console.log(calculateBMI(70,1.75));
 
-// }
+// task5
+
+const mergeInventory=(arr1,arr2)=>{
+    if(Array.isArray(arr1) && Array.isArray(arr2)){
+        const arr=[...arr1,...arr2];
+        return arr;
+    }
+    else{
+        return "Invalid";
+    }
+}
+const highestScore=(scores)=>{
+    if(Array.isArray(scores)){
+        const max_score=Math.max(...scores);
+        return max_score;
+    }
+    else{
+        return "Invalid";
+    }
+}
+console.log(mergeInventory([1,2],[3,4]));
+console.log(highestScore([3,7,2,9,4]));
+console.log(highestScore("3,7,2"));
+
+//Task6
+
+const extractUserInfo=()=>{
+    
+}

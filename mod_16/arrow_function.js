@@ -13,3 +13,15 @@ const sayGreet1=(name)=> `Hello ${name}, Good Evening.`; // Implecit return
 //if multiline is implemented then perenthesis and return statement should be implemented like normal arrow function
 
 console.log(sayGreet1("Mobarok"));
+
+
+
+const student={
+    name: "Uthsho",
+    age:35,
+    showName: function (){
+        console.log(this);
+        return `Name: ${this.name}.Age: ${this.age}`;
+    }
+}
+console.log(student.showName());
