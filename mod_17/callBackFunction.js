@@ -42,8 +42,9 @@ function displayResult(result){
 }
 function calculator(a,b,cb){
     let sum=a+b;
-    // return sum;
+    // return sum; 
     cb(sum);
 }
+calculator(5,4,10);
 
 calculator(50,55,displayResult);
