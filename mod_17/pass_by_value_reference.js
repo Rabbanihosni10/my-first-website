@@ -1,4 +1,5 @@
 // pass by value 
+//primitive
 //Reassign
 
 let name="Rabbani";
@@ -17,6 +18,8 @@ console.log(age);
 
 //pass by reference
 //Mutable
+//non primitive
+
 
 let student={
     name:"Uthsho",
