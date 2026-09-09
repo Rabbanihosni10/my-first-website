@@ -31,3 +31,9 @@ const jobin:Student={
     id:2323121,
     major:"Data Science",
 }
+
+const tobarok:Student={
+    name:"Tobarok",
+    id:2223131,
+    major:"Law"
+}

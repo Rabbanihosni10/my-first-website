@@ -5,6 +5,13 @@ type Product={
     description: string;
 }
 
+type ProductList={
+    products: Product[];
+    name:string;
+    no_of_products:number;
+    origin?:string;
+};
+
 const products:Product[]=[
     {
         id:1,
