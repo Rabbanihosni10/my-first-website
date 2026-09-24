@@ -49,3 +49,6 @@ def view_expense():
 # @app.get("/python")
 # def view():
 #     return "I have python knowledge."
+
+for i in range(25):
+    print("Hello World!")
