@@ -5,7 +5,7 @@ type Product={
 }
 
 const findProducts=(products: Product[],category: string):Product[] =>{
-    const categoryProducts:Product[]=products.filter((product)=>product.category===category)
+    const categoryProducts:Product[]=products.filter((product:Product)=>product.category===category)
     return categoryProducts;
 }
 // const findProducts=(products: Product[],category: string):Product[] =>{
