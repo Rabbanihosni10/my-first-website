@@ -8,7 +8,7 @@ const renderNotification = (notification) => {
         if (notification.actionUrl) {
             return `System: ${notification.message}. (Tap to view)`;
         }
-        return `System: ${notification.message}.`;
+        return `System: ${notification.message}`;
     }
 };
 console.log(renderNotification({ type: "like", fromUser: "Aisha" }));
