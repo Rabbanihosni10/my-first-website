@@ -58,12 +58,26 @@
 
 
 from fastapi import FastAPI, HTTPException, Path 
+from pydantic import BaseModel,Field
+from typing import Annotated
 import json
 app =FastAPI()
+
+class Expense(BaseModel):
+    expense_id: Annotated[str,Field(..., description="ID of The Expense", example="ID= E001")]
+    name:Annotated[str,Field(..., description="Name of The Expense", example="Lunch")]
+    amount:Annotated[int,Field(..., description="Amount of The Expense", example=100)]
+    category:Annotated[str,Field(..., description="Category of The Expense", example="Food")]
+    date:Annotated[str,Field(..., description="Date of The Expense", example="2023-10-10")]
+    description:Annotated[str,Field(..., description="Description of The Expense", example="Lunch with friends")]
 
 def load_data():
     with open('expenses.json','r') as f:
         data=json.load(f)
+    return data
+def save_data(data):
+    with open('expenses.json','w') as f:
+        json.dump(data,f,indent=4)
     return data
 
 @app.get("/") #@ is a decorator
@@ -106,8 +120,16 @@ def sort_expenses(sorted_by:str,order:str):
         sorted_data.sort(key= lambda x: x[sorted_by], reverse=True)
     return sorted_data
 
+@app.post("/create")
+def create_expense(expense:Expense):
+    data=load_data()
+    if expense.expense_id in data:
+        raise HTTPException(status_code=400,detail="Expense ID already exists")
+    else:
+        data[expense.expense_id]=expense.model_dump(exclude=["expense_id"])
+        save_data(data)
 
-
+       
 # @app.get("/view/category/{category}")
 # def view_expenses_category():
 #     data=load_data()
