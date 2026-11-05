@@ -1,3 +1,4 @@
 {
-    "cmake.sourceDirectory": "/Users/apple/Desktop/projects/flutter_project/my_first_app/linux"
+  "cmake.sourceDirectory": "/Users/apple/Desktop/projects/flutter_project/my_first_app/linux",
+  "liveServer.settings.port": 5501
 }
