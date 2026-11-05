@@ -1,10 +1,11 @@
 {
     "E001": {
-        "name": "Grocery Shopping",
-        "amount": 2450.5,
+        "name": "Lunch",
+        "amount": 400,
         "category": "Food",
-        "date": "2026-08-03",
-        "description": "Weekly groceries from Shwapno"
+        "date": "2023-10-10",
+        "description": "Lunch with friends",
+        "expense_id": "ID= E001"
     },
     "E002": {
         "name": "Uber Ride",
@@ -26,13 +27,6 @@
         "category": "Entertainment",
         "date": "2026-08-09",
         "description": "Monthly streaming subscription renewal"
-    },
-    "E005": {
-        "name": "Restaurant Dinner",
-        "amount": 1200.0,
-        "category": "Food",
-        "date": "2026-08-12",
-        "description": "Dinner date at a local restaurant"
     },
     "E006": {
         "name": "Mobile Recharge",
@@ -75,5 +69,21 @@
         "category": "Work",
         "date": "2026-10-10",
         "description": "Laptop for work"
+    },
+    "E013": {
+        "expense_id": "E013",
+        "name": "Lunch",
+        "amount": 100,
+        "category": "Food",
+        "date": "2023-10-10",
+        "description": "Lunch with friends"
+    },
+    "E015": {
+        "expense_id": "E015",
+        "name": "Dinner with Nuha",
+        "amount": 1000,
+        "category": "Chinese with chicken fries",
+        "date": "2026-11-27",
+        "description": "Lunch with friends"
     }
 }
