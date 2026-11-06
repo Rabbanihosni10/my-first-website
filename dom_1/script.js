@@ -26,3 +26,13 @@ console.log(heading2);
 let paras=document.getElementsByTagName("p");
 console.dir(paras);
 console.log(paras);
+
+
+// let firstElem=document.querySelector("p");
+// console.dir(firstElem);
+// let firstElem=document.querySelector(".heading-class");
+// console.dir(firstElem);
+let firstElem=document.querySelector("#btn");
+console.dir(firstElem);
+let allElem=document.querySelectorAll("p");
+console.dir(allElem);
