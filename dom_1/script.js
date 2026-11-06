@@ -18,3 +18,11 @@
 let heading=document.getElementById("heading");
 console.dir(heading);
 console.log(heading);
+
+let heading2=document.getElementsByClassName("heading");
+console.dir(heading2);
+console.log(heading2);
+
+let paras=document.getElementsByTagName("p");
+console.dir(paras);
+console.log(paras);
