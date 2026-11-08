@@ -41,6 +41,7 @@ art.style.border="1px solid black";
 art.style.height="100px";
 art.style.width="100px";
 art.style.textAlign="center";
+
 art.onclick=(e)=>{
     console.log(e);
     console.log(e.target);
