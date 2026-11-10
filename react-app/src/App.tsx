@@ -1,6 +1,6 @@
-import Message from "./Message";
+import ListGroup from "./components/ListGroup";
 const App=()=>{
-  return <div><Message /></div>;
+  return <div><ListGroup /></div>;
 }
 
 export default App;
