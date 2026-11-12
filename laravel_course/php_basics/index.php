@@ -63,3 +63,12 @@ function handle($path,$callback){
 handle("/",function(){
     return "Homepage";
 })
+
+
+
+
+// $ --> variable//
+// . --> join string//
+// -> --> to get inside object//
+// :: --> scope resolution operator --> to called from class directly like we use static inside the js//
+//

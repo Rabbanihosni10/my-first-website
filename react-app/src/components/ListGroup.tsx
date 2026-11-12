@@ -24,7 +24,7 @@ const ListGroup = () => {
                 {/* {items.map(item=><li>{item}</li>)}; */}
                 
                 {items.map((item) => (
-                    <li key={item}>{item}</li>)
+                    <li className="list-group-item" key={item} onCanPlay={()=>console.log("clicked!")}>{item}</li>)
                 )}
                 {/* <li className="list-group-item">An item</li>
             <li className="list-group-item">A second item</li>
